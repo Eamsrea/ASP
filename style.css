@@ -1,44 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 'open sans', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #f4f4f4;
+    background-image: url(DJI_0745.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+a:hover{
+    color: orange;
+}
 #header{
-    min-height: 100px;
-    min-width: 300px;
-
+    min-width: auto;
+    min-height: auto;
     display: flex;
-    gap: 100px;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    flex-shrink: 1;
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
 .logo{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;   
     width: 200px;
     height: 70px;
-}
-
-.title{
-    flex-shrink: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 70px;
-}
-#content1{
-    min-height: 50px;
-    min-width: 300px;
-    display: flex;
-    justify-content:space-between ;
-    align-items: center;
-    flex-wrap: wrap;
 }
 .nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1;
-    margin: 1;
+    padding: 10px 20px;
+
 }
 .nav ul {
     list-style: none;
@@ -48,10 +60,13 @@
     flex-direction: row; /* Makes items stack vertically */
     gap: 50px; /* Adds space between items */
 }
-.content{
+.btn{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    min-height: 100vh;
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
