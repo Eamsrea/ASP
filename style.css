@@ -24,8 +24,9 @@ a{
 }
 a:hover{
     color: orange;
-    scale: 5px;
+    scale: 10px;
 }
+
 #header{
     min-width: auto;
     min-height: auto;
@@ -38,8 +39,6 @@ a:hover{
     margin: 0;
     border: 0;
 }
-
-
 
 .logo{
     display: flex;
